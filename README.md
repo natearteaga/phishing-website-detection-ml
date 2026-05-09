@@ -1,20 +1,18 @@
-# Phishing Website Detection with Machine Learning
-
-## Overview
+Phishing Website Detection with Machine Learning
+Overview
 This project applies machine learning techniques to classify websites as either phishing or legitimate using a structured phishing website dataset. The project investigates how well different machine learning models perform on this cybersecurity task and analyzes which categories of features contribute most to predictive performance.
 
-## Research Question
+Research Question
 Can phishing websites be accurately detected using machine learning, and which feature groups are most useful for detection?
 
-## Dataset
-This project uses the **Web page Phishing Detection Dataset** from Kaggle:
+Dataset
+This project uses the Web page Phishing Detection Dataset from Kaggle:
 
-[Web page Phishing Detection Dataset](https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset)
+Web page Phishing Detection Dataset
 
-The dataset contains 11,430 samples and 89 columns, including a binary target label (`status`) indicating whether a website is phishing or legitimate.
+The dataset contains 11,430 samples and 89 columns, including a binary target label (status) indicating whether a website is phishing or legitimate.
 
-## Project Structure
-```text
+Project Structure
 phishing-website-detection-ml/
 ├── data/
 │   └── raw/
@@ -33,8 +31,6 @@ phishing-website-detection-ml/
 ├── requirements.txt
 ├── README.md
 └── finalreport.pdf
-
-
 Notebooks
 01_data_cleaning.ipynb: Loads, cleans, and prepares the dataset for modeling
 02_eda.ipynb: Performs exploratory data analysis and feature investigation
@@ -66,20 +62,20 @@ Domain reputation and trust-related features were especially important for class
 Combining multiple feature groups led to the strongest overall performance
 How to Run
 Clone the repository
-Install the required packages:
-pip install -r requirements.txt
+Install the required packages with pip install -r requirements.txt
 Open the notebooks in VS Code or Jupyter
 Run the notebooks in order from 01_data_cleaning.ipynb through 05_ablation_study.ipynb
 Final Report
-The final written report for this project is included as:
+The final written report for this project is included as finalreport.pdf
 
-finalreport.pdf
+I removed the fenced code block version and used an indented block instead, so it won’t break on you.
 
-The only reason it looked mixed before is because `README.md` itself uses Markdown, and Markdown includes both normal text and fenced code blocks.
+After you paste and save it, if you want, I can help you with the next exact step:
 
-After you paste it in:
-1. save `README.md`
-2. commit it
-3. push it
+commit the README
+push it
+then start the final report outline
 
-If you want, after that I can help you make it look even more polished and GitHub-ready.
+
+
+
