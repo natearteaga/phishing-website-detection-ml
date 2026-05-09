@@ -1,18 +1,20 @@
-Phishing Website Detection with Machine Learning
-Overview
+# Phishing Website Detection with Machine Learning
+
+## Overview
 This project applies machine learning techniques to classify websites as either phishing or legitimate using a structured phishing website dataset. The project investigates how well different machine learning models perform on this cybersecurity task and analyzes which categories of features contribute most to predictive performance.
 
-Research Question
+## Research Question
 Can phishing websites be accurately detected using machine learning, and which feature groups are most useful for detection?
 
-Dataset
-This project uses the Web page Phishing Detection Dataset from Kaggle:
+## Dataset
+This project uses the **Web page Phishing Detection Dataset** from Kaggle:
 
-Web page Phishing Detection Dataset
+[Web page Phishing Detection Dataset](https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset)
 
-The dataset contains 11,430 samples and 89 columns, including a binary target label (status) indicating whether a website is phishing or legitimate.
+The dataset contains 11,430 samples and 89 columns, including a binary target label (`status`) indicating whether a website is phishing or legitimate.
 
-Project Structure
+## Project Structure
+```text
 phishing-website-detection-ml/
 ├── data/
 │   └── raw/
@@ -31,6 +33,7 @@ phishing-website-detection-ml/
 ├── requirements.txt
 ├── README.md
 └── finalreport.pdf
+
 Notebooks
 01_data_cleaning.ipynb: Loads, cleans, and prepares the dataset for modeling
 02_eda.ipynb: Performs exploratory data analysis and feature investigation
@@ -68,13 +71,19 @@ Run the notebooks in order from 01_data_cleaning.ipynb through 05_ablation_study
 Final Report
 The final written report for this project is included as finalreport.pdf
 
-I removed the fenced code block version and used an indented block instead, so it won’t break on you.
 
-After you paste and save it, if you want, I can help you with the next exact step:
+The key part is this line right after `finalreport.pdf` in the project tree:
 
-commit the README
-push it
-then start the final report outline
+```markdown
+
+That closes the block. If the rest is still inside the block, it means that closing line is missing or malformed.
+
+After pasting, make sure:
+- the line right under `└── finalreport.pdf` is exactly three backticks
+- no spaces before them
+- no extra words on that line
+
+Then save.
 
 
 
