@@ -33,6 +33,7 @@ phishing-website-detection-ml/
 ├── requirements.txt
 ├── README.md
 └── finalreport.pdf
+```
 
 ## Notebooks
 - `01_data_cleaning.ipynb`: Loads, cleans, and prepares the dataset for modeling
