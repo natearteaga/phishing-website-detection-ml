@@ -25,11 +25,6 @@ phishing-website-detection-ml/
 │   ├── 03_model_baselines.ipynb
 │   ├── 04_model_comparison.ipynb
 │   └── 05_ablation_study.ipynb
-├── src/
-│   ├── preprocess.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── utils.py
 ├── requirements.txt
 ├── README.md
 └── finalreport.pdf
